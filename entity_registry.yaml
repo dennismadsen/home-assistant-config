@@ -1,0 +1,220 @@
+light.sovevrelse_spot_3:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65544
+light.kontor_loftslampe:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65546
+light.sofies_vrelse_loftslampe:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65554
+light.kkkenlampe_2:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65552
+light.spisebord_1:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65547
+light.entre_loftslampe:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65549
+light.spisebord_2:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65545
+light.babyvrelse_loftslampe:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65550
+light.tv_bord:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65548
+light.kkkenlampe_1:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e1339520440017e-65551
+light.kkken:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131081
+light.sovevrelse:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131074
+light.stue:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131077
+light.kkkenalrum:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131075
+light.entre:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131078
+light.kontor:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131076
+light.babyvrelse:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131079
+light.sofies_vrelse:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e1339520440017e-131082
+media_player.stue:
+  config_entry_id: 94230f1406594ffd81385aabc4525168
+  name:
+  platform: cast
+  unique_id: f2c04946-ccbf-df1f-f620-664a472566a7
+media_player.sofies_vrelse:
+  config_entry_id: bbdf671815c34abd8aa3b97f86053e6f
+  name:
+  platform: sonos
+  unique_id: RINCON_B8E9378650BA01400
+media_player.kkken:
+  config_entry_id: bbdf671815c34abd8aa3b97f86053e6f
+  name:
+  platform: sonos
+  unique_id: RINCON_000E5884322401400
+media_player.stue_2:
+  config_entry_id: bbdf671815c34abd8aa3b97f86053e6f
+  name:
+  platform: sonos
+  unique_id: RINCON_000E5884AFC401400
+zwave.aeotec_zw090_zstick_gen5_eu:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+sensor.neo_coolcam_power_plug_12a_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273218
+sensor.neo_coolcam_power_plug_12a_voltage:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273346
+sensor.neo_coolcam_power_plug_12a_current:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273410
+sensor.neo_coolcam_power_plug_12a_exporting:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273600
+zwave.neo_coolcam_power_plug_12a:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+sensor.neo_coolcam_power_plug_12a_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305313
+sensor.neo_coolcam_power_plug_12a_power_management:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305457
+switch.neo_coolcam_power_plug_12a_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093060096
+sensor.neo_coolcam_power_plug_12a_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305281
+sensor.neo_coolcam_power_plug_12a_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305297
+sensor.neo_coolcam_power_plug_12a_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273090
+sensor.neo_coolcam_power_plug_12a_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273106
+sensor.neo_coolcam_power_plug_12a_interval:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273123
+sensor.neo_coolcam_power_plug_12a_previous_reading_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273234
+sensor.neo_coolcam_power_plug_12a_interval_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273251
+sensor.neo_coolcam_power_plug_12a_previous_reading_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273362
+sensor.neo_coolcam_power_plug_12a_interval_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273379
+sensor.neo_coolcam_power_plug_12a_previous_reading_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273426
+sensor.neo_coolcam_power_plug_12a_interval_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273443
+media_player.apple_tv:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: a168eac414787e288cf06d107d2d0ac2c77e3cc596bd9aa320636517edef9af6
+remote.apple_tv:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: a168eac414787e288cf06d107d2d0ac2c77e3cc596bd9aa320636517edef9af6

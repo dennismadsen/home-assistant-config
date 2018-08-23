@@ -1,0 +1,94 @@
+media:
+    name: Media
+    view: yes
+    icon: mdi:play-circle-outline
+    entities:
+      - group.media_player
+
+developer:
+    name: Developer
+    view: false
+    icon: mdi:developer-board
+    entities:
+      - group.catchall
+      - group.deaditems
+
+media_player:
+    name: Media player
+    entities:
+    - media_player.apple_tv
+    - media_player.denon_avrx1100w
+    - media_player.kkken
+    - media_player.kontor
+    - media_player.stue
+    - media_player.stue_2
+
+light_stue:
+  name: Lys stue
+  entities:
+    - switch.neo_coolcam_power_plug_12a_switch
+    - light.tv_bord
+
+weather:
+  name: Weather
+  entities:
+    - sensor.yr_symbol
+    - sun.sun
+
+netatmo_stue:
+  name: Netatmo stue
+  entities:
+    - sensor.netatmo_indoor_co2
+    - sensor.netatmo_indoor_humidity
+    - sensor.netatmo_indoor_noise
+    - sensor.netatmo_indoor_pressure
+    - sensor.netatmo_indoor_temperature
+    - sensor.netatmo_indoor_wifi
+
+netatmo_outdoor:
+  name: Netatmo udendørs
+  entities:
+    - sensor.netatmo_outdoor_battery
+    - sensor.netatmo_outdoor_humidity
+    - sensor.netatmo_outdoor_radio
+    - sensor.netatmo_outdoor_temperature
+    
+tradfri:
+  name: IEKA Trådfri
+  entities:
+    - sensor.tradfri_motion_sensor
+    - sensor.tradfri_remote_control
+
+aeotec_multisensor_6:
+  name: Aeotec ZW100 MultiSensor 6
+  entities:
+    - binary_sensor.aeotec_zw100_multisensor_6_sensor
+    - sensor.aeotec_zw100_multisensor_6_alarm_level
+    - sensor.aeotec_zw100_multisensor_6_alarm_type
+    - sensor.aeotec_zw100_multisensor_6_burglar
+    - sensor.aeotec_zw100_multisensor_6_luminance
+    - sensor.aeotec_zw100_multisensor_6_relative_humidity
+    - sensor.aeotec_zw100_multisensor_6_sourcenodeid
+    - sensor.aeotec_zw100_multisensor_6_temperature
+    - sensor.aeotec_zw100_multisensor_6_ultraviolet
+    
+neo_coolcam_power_plug:
+  name: Neo CoolCam Power Plug
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_alarm_level
+    - sensor.neo_coolcam_power_plug_12a_alarm_type
+    - sensor.neo_coolcam_power_plug_12a_current
+    - sensor.neo_coolcam_power_plug_12a_energy
+    - sensor.neo_coolcam_power_plug_12a_exporting
+    - sensor.neo_coolcam_power_plug_12a_interval
+    - sensor.neo_coolcam_power_plug_12a_interval_2
+    - sensor.neo_coolcam_power_plug_12a_interval_3
+    - sensor.neo_coolcam_power_plug_12a_interval_4
+    - sensor.neo_coolcam_power_plug_12a_power
+    - sensor.neo_coolcam_power_plug_12a_power_management
+    - sensor.neo_coolcam_power_plug_12a_previous_reading
+    - sensor.neo_coolcam_power_plug_12a_previous_reading_2
+    - sensor.neo_coolcam_power_plug_12a_previous_reading_3
+    - sensor.neo_coolcam_power_plug_12a_previous_reading_4
+    - sensor.neo_coolcam_power_plug_12a_sourcenodeid
+    - sensor.neo_coolcam_power_plug_12a_voltage
